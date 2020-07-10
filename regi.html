@@ -1,0 +1,54 @@
+<html>
+	<body>
+        <link rel="stylesheet" type = "text/css" href="regi.css">
+    	<center><h1>Registration</h1></center>
+		<center><form action="books.html">
+		<table>
+        <tr>
+            <td></td>
+            <td class="what">First Name : </td>
+            <td><input type="text" placeholder="Johnathon(min 6 chars)"pattern="[A-Za-z]{1}[a-z]{5}[a-z]*"required/></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="what">Password : </td>
+            <td><input type="password"placeholder="********(min 6 chars)" name="pass" pattern="[a-zA-Z0-9]{6}[a-zA-Z0-9]*" required/></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="what">Email Id. : </td>
+            <td><input type="email" placeholder="useremail@domain.com" name="mail" pattern="[a-z]*@[a-z]*.com" required/></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="what">Mob : </td>
+            <td><input type="tel" placeholder="10 digits Valid No" pattern="[1-9]{1}[0-9]{9}"required/></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="what">Last Name : </td>
+            <td><input type="text" placeholder="Doe" required/></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="what">Address : </td>
+            <td><input type="text" placeholder="California, USA" required/></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="what">Gender : </td>
+            <td><input type="radio" name="gender" value="M" required/>Male<input type="radio" name="gender" value="\F" required/>Female</td>
+            <td></td>
+        </tr>
+    </table>
+            <input type="submit" value="Sign Up"/>
+            <input type="reset" value="Reset"/>
+		</form></center>
+	</body>
+</html>
